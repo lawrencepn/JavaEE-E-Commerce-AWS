@@ -1,4 +1,4 @@
 JavaEE-E-Commerce-AWS
 =====================
 
-bleh
+JavaEE E-Commerce Application build on Amazon Web Services (Template)
