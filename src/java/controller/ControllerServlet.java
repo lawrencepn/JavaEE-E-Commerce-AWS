@@ -111,14 +111,8 @@ public class ControllerServlet extends HttpServlet {
         } else if (userPath.equals("/checkout")) {
 
             ShoppingCart cart = (ShoppingCart) session.getAttribute("cart");
-
-            // calculate total
             cart.calculateTotal(surcharge);
-
-            // forward to checkout page and switch to a secure channel
-
-
-        // if user switches language
+            
         } else if (userPath.equals("/chooseLanguage")) {
             // TODO: Implement language request
 
